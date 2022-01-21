@@ -56,7 +56,7 @@ elif arg.port_scanner:
 	os.system("python3 portscanner.py")
 	exit()
 elif arg.cipher:
-	os.system("python3 file_cipher.py")
+	os.system("python3 cipher.py")
 	exit()
 elif arg.hashexploit:
 	os.system("cd HashExploit && python3 HashExploit.py")
@@ -74,7 +74,7 @@ def pro(user_input):
 	elif user_input==2:
 		os.system("python3 portscanner.py")
 	elif user_input==3:
-		os.system("python3 file_cipher.py")
+		os.system("python3 cipher.py")
 	elif user_input==4:
 		os.system("cd HashExploit && python3 HashExploit.py")
 	
