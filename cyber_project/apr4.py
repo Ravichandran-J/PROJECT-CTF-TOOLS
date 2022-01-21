@@ -22,6 +22,6 @@ while True:
 	elif inp==2:
 		print("returning main menu wait 3 seconds")
 		time.sleep(3)
-		os.system("python3 cyberlab_pentest.py")
+		os.system("python3 netsec.py")
 		exit()
 
