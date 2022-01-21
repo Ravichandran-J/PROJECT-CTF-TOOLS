@@ -61,7 +61,7 @@ while True:
 	elif user =="main":
 		print("returning main menu wait for 2 seconds")
 		time.sleep(2)
-		os.system("python3 cyberlab_pentest.py")
+		os.system("python3 netsec.py")
 		exit()
 	
 		
